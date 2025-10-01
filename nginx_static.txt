@@ -1,4 +1,4 @@
-	location /js/ {
-        alias /var/www/static/js/;
-		try_files $uri =404;
-    }
+location /js/ {
+	alias /var/www/static/js/;
+	try_files $uri =404;
+}
